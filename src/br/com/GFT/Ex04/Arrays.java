@@ -38,11 +38,8 @@ public class Arrays {
         }
 
         List<Integer> resposta = new ArrayList<>();
-
-        for (int i = 0; i < arr1.size(); i++) {
+        for (int i = 0; i < arr1.size(); i++)
             resposta.add( arr1.get(i) * arr2.get(i));
-        }
-
 
         return resposta;
     }
